@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/guushi"
+    tools:context=".gushilist">
+     <TextView
+         android:id="@+id/gushi1"
+         android:layout_width="match_parent"
+         android:layout_height="80dp"
+         android:gravity="center"
+
+         android:textSize="50dp"
+         >
+
+     </TextView>
+    <TextView
+        android:id="@+id/gushi2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+
+        android:textSize="20dp"
+        >
+
+    </TextView>
+    <TextView
+        android:id="@+id/gushi3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:textSize="28dp"
+        >
+
+    </TextView>
+    <TextView
+        android:id="@+id/gushi4"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center"
+
+        android:textSize="8dp"
+        >
+
+    </TextView>
+</LinearLayout>
